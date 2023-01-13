@@ -1,0 +1,6 @@
+.preview__list {
+  display: grid;
+  grid-template-columns: 721px 78px;
+  grid-gap: 11px 19px;
+  list-style-type: none;
+}/*# sourceMappingURL=explore.css.map */

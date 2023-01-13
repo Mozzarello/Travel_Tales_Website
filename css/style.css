@@ -1,0 +1,191 @@
+.container {
+  max-width: 97.3%;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+}
+
+.list__item {
+  display: flex;
+  list-style-type: none;
+}
+
+.travel__logo {
+  height: 115px;
+  width: 236px;
+  border-radius: 0px;
+}
+
+.woman__avatar {
+  width: 75px;
+  height: 75px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__text {
+  margin-top: -80px;
+  max-width: 284px;
+  height: 144px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 144px;
+}
+
+.content__search {
+  margin-top: -45px;
+  margin-bottom: 40px;
+  width: 704px;
+  height: 91px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 200px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 27px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.content__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content__item {
+  list-style-type: none;
+  display: flex;
+}
+
+.content__button {
+  width: 347px;
+  height: 91px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border: 0;
+}
+
+.content__button--text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list--item {
+  display: flex;
+}
+
+.footer__list--button {
+  display: flex;
+}
+
+.footer__list--compass {
+  background-image: url(../../img/icons/logo__compass\ horizontal.svg);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.footer__list--information {
+  background-image: url(../../img/icons/logo__information\ horizontal.svg);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.footer__list--car {
+  background-image: url(../../img/icons/logo__car\ horizontal.svg);
+  background-size: contain, 20%;
+  width: 55px;
+  height: 55px;
+  margin-left: 25px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.footer__list--motel {
+  background-image: url(../../img/icons/logo__motel\ horizontal.svg);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.footer__list--caffe {
+  background-image: url(../../img/icons/logo__caffe\ horizontal.svg);
+  background-size: cover;
+  width: 55px;
+  height: 55px;
+  margin-left: 15px;
+  background-color: #ffffff;
+  border: 0;
+}
+
+.preview__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  max-width: 890px;
+  margin: auto;
+  justify-content: center;
+}
+
+.preview__item {
+  flex-basis: 50%;
+  list-style-type: none;
+}
+
+.preview__button {
+  width: 421px;
+  height: 78px;
+  box-shadow: -4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  border: 0;
+  background: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.preview__button--text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  align-items: center;
+  letter-spacing: 0.065em;
+  line-height: 45px;
+}/*# sourceMappingURL=style.css.map */

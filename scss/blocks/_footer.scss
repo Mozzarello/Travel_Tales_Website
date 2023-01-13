@@ -1,0 +1,68 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list--item {
+    display: flex;
+}
+
+.footer__list--button {
+    display: flex;
+
+}
+
+.footer__list--compass{
+    background-image: url(../../img/icons/logo__compass\ horizontal.svg);
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: 0
+}
+
+.footer__list--information{
+    background-image: url(../../img/icons/logo__information\ horizontal.svg);
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: 0
+}
+.footer__list--car{
+    background-image: url(../../img/icons/logo__car\ horizontal.svg);
+    background-size: contain, 20%;
+    width: 55px;
+    height: 55px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border: 0
+}
+
+.footer__list--motel{
+    background-image: url(../../img/icons/logo__motel\ horizontal.svg);
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: 0
+}
+
+.footer__list--caffe{
+    background-image: url(../../img/icons/logo__caffe\ horizontal.svg);
+    background-size: cover;
+    width: 55px;
+    height: 55px;
+    margin-left: 15px;
+    background-color: #ffffff;
+    border: 0
+}
