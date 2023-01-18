@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Travel Tales</title>
-  </head>
 
-  <header class="header container">
-    <section class="header__wrapper">
-      <ul class="header__list">
-        <li class="list__item">
-          <img
-            src="./img/travel__logo.svg"
-            alt="логотип компании"
-            class="travel__logo"
-          />
-        </li>
-        <li class="list__item">
-          <img
-            src="./img/woman__avatar.svg"
-            alt="логотип (аватар) девушки"
-            class="woman__avatar"
-          />
-        </li>
-      </ul>
-    </section>
-  </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Travel Tales</title>
+</head>
 
-  <body>
-    <section class="content container">
-      <img
-        src="./background/content__sailboat.svg"
-        alt="изображение парусника"
-        class="content__item"
-      />
-      <h1 class="content__text">Travel</h1>
-      <input
-        type="text"
-        class="content__search"
-        placeholder="Search for your nearest picnic spot"
-      />
-    </section>
-  </body>
-
-  <footer class="footer container">
-    <ul class="footer__list">
-      <li class="footer__list--item">
-        <button
-          class="footer__list--compass"
-          onclick="document.location='explore.html'"
-        ></button>
+<header class="header container">
+  <section class="header__wrapper">
+    <ul class="header__list">
+      <li class="list__item">
+        <img src="./img/travel__logo.svg" alt="логотип компании" class="travel__logo" />
       </li>
-      <li class="footer__list--item">
-        <button class="footer__list--information"></button>
-      </li>
-      <li class="footer__list--item">
-        <button class="footer__list--car"></button>
-      </li>
-      <li class="footer__list--item">
-        <button class="footer__list--motel"></button>
-      </li>
-      <li class="footer__list--item">
-        <button class="footer__list--caffe"></button>
+      <li class="list__item">
+        <img src="./img/woman__avatar.svg" alt="логотип (аватар) девушки" class="woman__avatar" />
       </li>
     </ul>
-  </footer>
+  </section>
+</header>
+
+<body>
+  <section class="content container">
+    <img src="./background/content__info.svg" alt="изображение парусника" class="content__item" />
+    <h1 class="content__text">Info</h1>
+    <button class="content__button--info">
+      <p class="button__text--info">you selected spot</p>
+    </button>
+  </section>
+  <section class="information container">
+    <ul class="information__list">
+      <li class="information__item--map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22562.951070321025!2d78.38448995!3d45.01743665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skz!4v1673886692248!5m2!1sru!2skz"
+          width="823" height="301" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </li>
+      <li class="information__item--data">
+        <h3 class="information__map--header">About</h3>
+        <ul class="information__list--map">
+          <li class="item__map">Location :</li>
+          <li class="item__map">Entry Fee : </li>
+          <li class="item__map">Timings : </li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</body>
+
+<footer class="footer container">
+  <ul class="footer__list">
+    <li class="footer__list--item">
+      <button class="footer__list--compass" onclick="document.location='explore.html'"></button>
+    </li>
+    <li class="footer__list--item">
+      <button class="footer__list--information" onclick="document.location='information.html'"></button>
+    </li>
+    <li class="footer__list--item">
+      <button class="footer__list--car" onclick="document.location='cab.html'"></button>
+    </li>
+    <li class="footer__list--item">
+      <button class="footer__list--motel" onclick="document.location='hotels.html'"></button>
+    </li>
+    <li class="footer__list--item">
+      <button class="footer__list--caffe" onclick="document.location='food.html'"></button>
+    </li>
+  </ul>
+</footer>
+
 </html>
