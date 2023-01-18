@@ -1,0 +1,24 @@
+.cab__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.cab__item {
+    display: flex;
+}
+
+.cab__item--button {
+    background: #FFFFFF;
+}
+
+.cab__item--text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    align-items: center;
+    letter-spacing: 0.065em;
+}
+

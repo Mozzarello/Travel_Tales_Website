@@ -39,7 +39,9 @@
 
 .content__item {
   list-style-type: none;
-  display: flex;
+  width: 1792px;
+  margin-left: 94px;
+  margin-right: 44px;
 }
 
 .content__button {
@@ -56,4 +58,13 @@
   font-weight: 300;
   font-size: 30px;
   line-height: 45px;
+}
+
+.content__button--info {
+  width: 395px;
+  height: 91px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border: 0;
 }
